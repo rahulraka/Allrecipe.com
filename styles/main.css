@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: #a8c0ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+  background: linear-gradient(to right, #3f2b96, #a8c0ff);
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border: solid 1px black;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-top: 0;
+  margin-bottom: 100px;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  background: linear-gradient(to right, #1cb5e0, #000046);
+  border: none;
+  border-radius: 8px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#options {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+#data {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 40px;
+}
+#thumbNail {
+  width: 100%;
+  height: 90%;
+}
+
+.Headline {
+  margin-top: 100px;
+  color: #000046;
+  text-align: center;
+  margin-bottom: 65px;
+}
+#title {
+  text-align: center;
+  color: yellow;
+  margin-top: 5px;
+}
+#searchDiv {
+  margin: auto;
+}
+#inputWala {
+  font-size: 24px;
+  color: #000046;
+  text-align: center;
+  width: 60%;
+  height: 55px;
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 100px;
+}
+.fa-magnifying-glass {
+  padding: 5px;
+  font-size: 45px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #000046;
+  /* background-color: skyblue; */
+  margin: auto;
+}
+.fa-magnifying-glass:active {
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+#search {
+  font-size: 24px;
+  color: #000046;
+  text-align: center;
+  width: 93%;
+  height: 50px;
+  /* margin: 0 280px; */
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  /* padding:5px; */
+}
+#dish {
+  margin: auto;
+  width: 90%;
+}
+#thumbSingle {
+  display: block;
+  /* text-align: center; */
+
+  width: 600px;
+  height: 500px;
+}
+#name {
+  /* margin-left: 50px; */
+  color: yellow;
+}
+#cuisine {
+  color: rgb(170, 250, 170);
+  font-weight: 500;
+}
+#ingredient {
+  color: rgb(170, 250, 170);
+  font-weight: 500;
+}
+#instruction {
+  color: rgb(170, 250, 170);
+  font-weight: 500;
+}
